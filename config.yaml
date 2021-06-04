@@ -1,11 +1,19 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:math.AP OR cat:math.CA OR cat:DS OR cat:math.NA OR nlin.* OR physics.data-an OR physics.flu-dyn OR physics.plasm-ph'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        Cahn-Hilliard: 5
+        Allen-Cahn: 3
+        phase field: 5
+        phase decomposition: 3
+        phase separation: 3
+        dynamic boundary condition: 5
+        Rayleigh wave: 3
+        soliton: 2
+        three wave interaction: 3
+        nonlinear: 2
+        pattern formation: 1
 
 # 通知の閾値
 score_threshold: 0
